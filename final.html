@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Da Vinci Code Riddle Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700|Zilla+Slab:300,400,700" rel="stylesheet">
+    </head>
+
+    <body>
+          <section class="banner">
+            <img class="1st-back" src="img/final-background.jpg">
+            <div class="nav">
+                <h1 class="heading"><a href="index.html">THE DA VINCI CODE</a></h1>
+                <ul>
+                    <li><a href="1st.html">1ST</a></li>
+                    <li><a href="2nd.html">2ND</a></li>
+                    <li><a href="3rd.html">3RD</a></li>
+                    <li><a href="4th.html">4TH</a></li>
+                    <li><a href="final.html">FINAL</a></li>
+                </ul> 
+            </div>
+             
+            <section class="final">
+                <h2 class="final-h">SOLVING THE FINAL PUZZLE</h2>
+                <p class="final-p">Now that you’ve unlocked all the clues, type in each answer that you received in the order that you found them. You won’t be able to watch the video without solving this last riddle.</p>
+                <form class="riddle-final">
+                <input id="typeAnswerFinal" class="type" type="text" placeholder="Type Here">
+                <br>
+                <button type="button" class="btn btn-info btn-lg submitButton2"  data-toggle="modal" data-target="#myModal" onclick="SubmitAnswerFinal()">Submit</button>
+            </form>
+                
+            <iframe class="youtubeVid" width="924" height="492" src="https://www.youtube.com/embed/-rMElSGZpV4" frameborder="0" allowfullscreen></iframe>
+            <div id="lockVid" class="lockDiv"><img class="lock" src="img/lock.png"></div>
+            </section>
+              
+              
+              <!------------------------ Modal ------------------------->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Your answer was...</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p id="answerQ1"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="beginGame" class="btn btn-default beginGame" data-dismiss="modal" onclick="UnlockTrailer()"> Unlock Trailer</button>
+                        <button type="button" id="tryAgain" class="btn btn-default tryAgain" data-dismiss="modal">Try again</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              
+        </section>
+        
+        <footer class="final-footer">
+            <p>The Da Vinci Code 2017</p>
+        </footer>
+        
+        <script src="js/main.js"></script>
+        
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

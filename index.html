@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Da Vinci Code Riddle Game</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700|Zilla+Slab:300,400,700" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="banner">
+            <img src="img/homepage-banner.jpg">
+            <div class="nav">
+                <h1 class="heading"><a href="index.html">THE DA VINCI CODE</a></h1>
+                <ul>
+                    <li><a href="1st.html">1ST</a></li>
+                    <li><a href="2nd.html">2ND</a></li>
+                    <li><a href="3rd.html">3RD</a></li>
+                    <li><a href="4th.html">4TH</a></li>
+                    <li><a href="final.html">FINAL</a></li>
+                </ul> 
+            </div>
+        </section>
+        
+        <section class="divider"></section>
+        
+        <main class="info">
+            <h2 class="sum">SUMMARY</h2>
+            <p>While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. Solving the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of da Vinci… clues visible for all to see… and yet ingeniously disguised by the painter.
+
+            Langdon joins forces with a gifted French cryptologist, Sophie Neveu, and learns the late curator was involved in the Priory of Sion—an actual secret society whose members included Sir Isaac Newton, Botticelli, Victor Hugo, and da Vinci, among others. The Louvre curator has sacrificed his life to protect the Priory’s most sacred trust: the location of a vastly important religious relic, hidden for centuries.
+
+            In a breathless race through Paris, London, and beyond, Langdon and Neveu match wits with a faceless powerbroker who appears to work for Opus Dei—a clandestine, Vatican-sanctioned Catholic sect believed to have long plotted to seize the Priory’s secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle in time, the Priory’s secret—and a stunning historical truth—will be lost forever.</p>
+            
+            <h2 class="sec">THE SECRET LIFE OF LEONARDO DA VINCI</h2>
+            <p>A prankster and genius, Leonardo da Vinci is widely believed to have hidden secret messages within much of his artwork. Most scholars agree that even da Vinci’s most famous pieces – works like The Mona Lisa, The Last Supper, and Madonna of the Rocks – contain startling anomalies that all seem to be whispering the same cryptic message… a message that hints at a shocking historical secret that allegedly has been guarded since 1099 by a European secret society known as the Priory of Sion. In 1975, Paris’s Bibliothèque Nationale discovered parchments known as Les Dossiers Secrets, identifying numerous members of the Priory of Sion, including Sir Isaac Newton, Victor Hugo, Botticelli, and Leonardo da Vinci.</p>
+            
+            <h2 class="exp">EXPERIENCE</h2>
+            <p>Enter the world of Robert Langdon and see if you can uncover the clues and solve the mystery of the hidden messages within Leonardo da Vinci’s iconic additions to the world. By using the magnifying glass, drag and hover over the page to look for clues. Once you’ve found a clue drop the magnifying glass to unlock a riddle in order for you to move on to the next clue. 
+            <br>
+            *Keep all the answers you get as you will be needing it later.
+            <br>
+            <br>
+            But first, lets start with a little riddle of our own...</p>
+            
+            <form class="riddle-1">
+                <p>Who invented the Triple Barrel Canon?</p>
+                <br>
+                <input id="typeAnswer" class="type" type="text" placeholder="Type Here">
+            </form>
+            
+            <!-- Trigger the modal with a button -->
+              <button type="button" class="btn btn-info btn-lg submitButton"  data-toggle="modal" data-target="#myModal" onclick="SubmitAnswer()">Submit</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Your answer was...</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p id="answerQ1"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="beginGame" class="btn btn-default beginGame" onclick="FirstClue()">Begin Game</button>
+                        <button type="button" id="tryAgain" class="btn btn-default tryAgain" data-dismiss="modal">Try again</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            
+            <footer class="footer">
+                <p>The Da Vinci Code 2017</p>
+            </footer>
+        </main>
+        
+        <script src="js/main.js"></script>
+        
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

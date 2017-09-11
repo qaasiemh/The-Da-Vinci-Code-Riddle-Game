@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Da Vinci Code Riddle Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700|Zilla+Slab:300,400,700" rel="stylesheet">
+    </head>
+
+    <body>
+          <section class="banner">
+            <img class="1st-back" src="img/1st-background.jpg">
+            <div class="nav">
+                <h1 class="heading"><a href="index.html">THE DA VINCI CODE</a></h1>
+                <ul>
+                    <li><a href="1st.html">1ST</a></li>
+                    <li><a href="2nd.html">2ND</a></li>
+                    <li><a href="3rd.html">3RD</a></li>
+                    <li><a href="4th.html">4TH</a></li>
+                    <li><a href="final.html">FINAL</a></li>
+                </ul> 
+            </div>
+             
+            <section class="first">
+                <h2 class="first-h">1ST CLUE - THE VITRUVIAN MAN</h2>
+                <p class="first-p">Use the magnifying glass to drag and hover over the page to look for clues. Once you’ve found a clue drop the magnifying glass to unlock a riddle in order for you to move on to the next clue.
+                <br>
+                <br>
+                *Look out for a plus sign on the cursor, that's where the clue will be.
+                <br>
+                *Keep all the answers you get as you will be needing it later.</p>
+                 <div class="mag"><img id="drag1" draggable="true" ondragstart="drag(event)" src="img/magnifying-glass.png"></div>
+            </section>
+             
+        </section>
+        
+        <img class="" src="img/1st-image.jpg">
+        <div class="clue1" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" onmouseover="FoundClue()"></div>
+        
+        <!-------------------- Modal ------------------------>
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Riddle One</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p id="riddleOne">What is the past tense of "hide"?</p>
+                        <input id="typeAnswerR1" class="" type="text" placeholder="Type Here">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="submitR1" class="btn btn-default" data-dismiss="modal" onclick="SubmitR1()">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+         <!-------------------------- Modal 2 ------------------------->
+              <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Your answer was...</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p id="answerR1"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="beginGame" class="btn btn-default beginGame" onclick="SecondClue()">Proceed</button>
+                        <button type="button" id="tryAgain" class="btn btn-default tryAgain" data-dismiss="modal" onclick="TryAgainR1()">Try again</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+        
+        <footer class="first-footer">
+            <p>The Da Vinci Code 2017</p>
+        </footer>
+        
+        <script src="js/main.js"></script>
+        
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

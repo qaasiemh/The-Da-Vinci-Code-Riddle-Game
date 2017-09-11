@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1366px;
+}
+
+/*============= Banner =============*/
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+/*============= Nav =============*/
+
+.nav {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 1285px;
+}
+
+.banner .heading {
+    display: inline-block;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    border: 5px solid white;
+    padding: 5px 10px;
+}
+
+.banner .heading a {
+    text-decoration: none;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+
+.banner ul {
+    display: inline-block;
+    margin-left: 460px;
+}
+
+.banner ul li {
+    display: inline-block;
+    padding-left: 30px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+}
+
+.banner ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*============= Divider =============*/
+
+.divider {
+    background-color: #fbaf17;
+    height: 30px;
+    margin-top: -4px;
+}
+
+/*============= Info =============*/
+
+.info {
+    position: absolute;
+    background-image: url(../img/homepage-background.jpg);
+    width: 1366px;
+}
+
+.info h2 {
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fbaf17;
+    border: 5px solid #fbaf17;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.sum {
+     width: 178px;
+}
+
+.sec {
+     width: 623px;
+}
+
+.exp {
+     width: 206px;
+}
+
+.info p {
+    width: 80%;
+    color: #fbaf17;
+    font-family: 'Zilla Slab', serif;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*============= Form =============*/
+
+.riddle-1 {
+    margin: 0 auto;
+    width: 510px;
+}
+
+.riddle-1 p {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    width: 510px;
+}
+
+.riddle-1 .type {
+    border: 5px solid #fbaf17;
+    background: none;
+    width: 480px;
+    font-size: 25px;
+    padding: 10px 0px;
+    padding-left: 15px;
+    padding-bottom: 14px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 15px;
+    color: #fbaf17;
+    margin-left: 15px;
+}
+
+.riddle-1 .submit {
+    border: 5px solid #fbaf17;
+    font-family: 'Zilla Slab', serif;
+    background: none;
+    font-size: 25px;
+    color: #fbaf17;
+    padding: 10px;
+    width: 130px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+
+.beginGame .tryAgain {
+    display: none;
+}
+
+ .submitButton {
+    border: 5px solid #fbaf17;
+    font-family: 'Zilla Slab', serif;
+    background: none;
+    font-size: 25px;
+    color: #fbaf17;
+    padding: 10px;
+    width: 130px;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    border-radius: none;
+}
+
+/*============= Footer =============*/
+
+.footer {
+    width: 1366px;
+    background-color: #fbaf17;
+    padding: 10px 0;
+}
+
+.footer p {
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+}
+
+
+/*======================== END ========================*/
+/*=====================================================*/
+
+
+/*============= 1st Page =============*/
+
+.first {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -330px;
+    padding-bottom: 20px;
+}
+
+.first-h {
+    width: 550px;
+    margin: 0 auto;
+    color: #fbaf17;
+    font-size: 30px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.first-p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Zilla Slab', serif;
+    color: #fbaf17;
+    margin-bottom: -3px;
+}
+
+.mag {
+    margin-top: 35px;
+    margin-left: 950px;
+    outline: 5px solid #fbaf17;
+    padding: 3px;
+    width: 99px;
+    height: 99px;
+}
+
+.clue1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+}
+
+
+/*============= Footer =============*/
+
+.first-footer {
+    width: 1366px;
+    background-color: #fbaf17;
+    padding: 10px 0;
+    margin-top: -5px;
+}
+
+.first-footer p {
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 9px;
+}
+
+/*======================== END ========================*/
+/*=====================================================*/
+
+/*============= 2nd Page =============*/
+
+.clue2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 628px;
+    top: 690px;
+}
+
+
+/*============= Footer =============*/
+
+
+/*======================== END ========================*/
+/*=====================================================*/
+
+
+/*============= 3rd Page =============*/
+
+.clue3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 538px;
+    top: 920px;
+}
+
+
+/*============= Footer =============*/
+
+
+/*======================== END ========================*/
+/*=====================================================*/
+
+
+/*============= 4th Page =============*/
+
+.clue4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 28px;
+    top: 870px;
+}
+
+
+/*============= Footer =============*/
+
+
+/*======================== END ========================*/
+/*=====================================================*/
+
+
+/*============= Final Page =============*/
+
+
+.final {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -1050px;
+    padding-bottom: 20px;
+}
+
+.final-h {
+    width: 550px;
+    margin: 0 auto;
+    color: #fbaf17;
+    font-size: 30px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.final-p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Zilla Slab', serif;
+    color: #fbaf17;
+}
+
+
+.riddle-final {
+    margin: 0 auto;
+    width: 510px;
+    margin-top: 30px;
+}
+
+.riddle-final p {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    width: 510px;
+}
+
+.riddle-final .type {
+    border: 5px solid #fbaf17;
+    background: none;
+    width: 480px;
+    font-size: 25px;
+    padding: 10px 0px;
+    padding-left: 15px;
+    padding-bottom: 14px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 15px;
+    color: #fbaf17;
+    margin-left: 16px;
+}
+
+.riddle-final .submit {
+    border: 5px solid #fbaf17;
+    font-family: 'Zilla Slab', serif;
+    background: none;
+    font-size: 25px;
+    color: #fbaf17;
+    padding: 10px;
+    width: 130px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+
+.submitButton2 {
+    border: 5px solid #fbaf17;
+    font-family: 'Zilla Slab', serif;
+    background: none;
+    font-size: 25px;
+    color: #fbaf17;
+    padding: 10px;
+    width: 130px;
+    margin-left: 38%;
+    margin-bottom: 50px;
+    border-radius: none;
+}
+
+/*============= Footer =============*/
+
+.final-footer {
+    width: 1366px;
+    background-color: #fbaf17;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 152px;
+}
+
+.final-footer p {
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    margin: 0;
+}
+
+.youtubeVid {
+    margin-top: 50px;
+}
+
+.lockDiv {
+    background-color: black;
+    position: absolute;
+    width: 924px;
+    height: 492px;
+    top: 549px;
+}
+
+.lock{
+    margin-left: 43%;
+    width: 128px;
+    height: 128px;
+    margin-top: 170px;
+}
